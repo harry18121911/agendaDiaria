@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TODOApp</string>
+    <string name="helloUser">Welcome User</string>
+    <string name="todoCategory">Categories</string>
 </resources>
