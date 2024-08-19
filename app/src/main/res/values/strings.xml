@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">TODOApp</string>
-    <string name="helloUser">Welcome User</string>
-    <string name="todoCategory">Categories</string>
-    <string name="todoTask">Tasks</string>
-    <string name="etHint">Add Task</string>
+    <string name="helloUser">Agenda Diaria</string>
+    <string name="todoCategory">Categorías.</string>
+    <string name="todoTask">Tareas.</string>
+    <string name="etHint">Añade tarea.</string>
+    <string name="businessRadio">Negocios.</string>
+    <string name="personalRadio">Personal.</string>
+    <string name="othersRadio">Otros.</string>
+    <string name="createTaskBtn">Crear Tarea.</string>
 </resources>

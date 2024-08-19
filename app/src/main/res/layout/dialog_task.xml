@@ -3,43 +3,67 @@
     android:orientation="vertical"
     android:layout_width="250dp"
     android:background="@color/midnight_blue"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:padding="16dp">
 
     <EditText
         android:id="@+id/etTask"
+        android:textColor="@color/white"
         android:backgroundTint="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/etHint"/>
+        android:hint="@string/etHint"
+        android:textSize="20dp"
+        android:textColorHint="@color/white"/>
 
     <RadioGroup
         android:id="@+id/rgCategories"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        >
 
         <RadioButton
             android:id="@+id/rbBusiness"
+            android:textColor="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Negocios"
-            android:checked="true"/>
+            android:text="@string/businessRadio"
+            android:checked="true"
+            android:padding="15dp"
+            android:textSize="20dp"/>
 
         <RadioButton
             android:id="@+id/rbPersonal"
+            android:textColor="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:buttonTint="@color/greenYellow"
-            android:text="Personal"
-            android:checked="false"/>
+            android:text="@string/personalRadio"
+            android:checked="false"
+            android:padding="15dp"
+            android:textSize="20dp"
+            />
 
         <RadioButton
             android:id="@+id/rbOther"
+            android:textColor="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:buttonTint="@color/yellow"
-            android:text="Otros"
-            android:checked="false"/>
+            android:text="@string/othersRadio"
+            android:checked="false"
+            android:padding="15dp"
+            android:textSize="20dp"
+            />
     </RadioGroup>
+
+    <Button
+        android:id="@+id/btnAddTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/createTaskBtn"
+        android:backgroundTint="@color/red"
+        />
 
 
     
